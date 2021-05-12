@@ -1,0 +1,13 @@
+* {
+    background-color: darkgrey;
+}
+
+.list,
+.todoList {
+    display: inline-block;
+}
+
+.input {
+    display: block;
+}
+
