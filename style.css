@@ -2,12 +2,7 @@
     background-color: darkgrey;
 }
 
-.list,
-.todoList {
-    display: inline-block;
-}
-
-.input {
+li {
     display: block;
+    margin: 10px;
 }
-

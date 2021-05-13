@@ -10,13 +10,17 @@
 
 <body>
     <h1>Todo List</h1>
-    <div class="list">
-        <h3 class="todoList">Clean</h3>
-        <button class="completed">Completed</button>
-        <button class="delete">Delete</button>
-    </div>
+    <ul class="list">
+        <li class="todoList">Clean
+            <button class="completed">Completed</button>
+            <button class="delete">Delete</button>
+        </li>
+    </ul>
 
-    <input type="text" class="input">
+    <form action="" class="addTodo">
+        <label>Add a new todo: </label>
+        <input type="text" name="addTodo" />
+    </form>
 
 
     <script src="script.js"></script>
