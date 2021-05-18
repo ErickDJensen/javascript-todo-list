@@ -24,7 +24,10 @@ addTodo.addEventListener('submit', e => {
         generateTemplate(todo);
         addTodo.reset();
     };
+});
 
-
-
+list.addEventListener('click', e => {
+    if (e.target.classList.contains('delete')) {
+        e.target.parentElement.remove();
+    }
 });
