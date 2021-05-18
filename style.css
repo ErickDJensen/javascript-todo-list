@@ -6,3 +6,8 @@ li {
     display: block;
     margin: 10px;
 }
+
+.complete {
+    color: red;
+    text-decoration: line-through;
+}
