@@ -36,6 +36,6 @@ list.addEventListener('click', e => {
 //completed todo items
 list.addEventListener('click', e => {
     if (e.target.classList.contains('completed')) {
-        e.target.parentElement.classList.add('complete');
+        e.target.parentElement.classList.toggle('todoComplete');
     }
 });

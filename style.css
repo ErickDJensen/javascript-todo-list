@@ -7,7 +7,12 @@ li {
     margin: 10px;
 }
 
-.complete {
+button {
+    text-align: right;
+}
+
+.todoComplete {
     color: red;
     text-decoration: line-through;
 }
+
